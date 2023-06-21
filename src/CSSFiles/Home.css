@@ -1,0 +1,51 @@
+
+
+
+
+
+#Homepage{
+    margin-top: 15px;
+    margin-right: 50px;
+    background:rgb(24, 24, 24);
+    display: flex;
+    width: fit-content;
+    height: 100%;
+    color: white;
+    float: right;
+}
+
+
+#Inbox,#Sent, #Profile{
+    margin: 5px;
+    border: solid rgb(59, 59, 59);
+    width: 50vh;
+    height: 90vh;    
+    text-align: center;
+}
+
+#Profile{
+    margin: 5px;
+    border: double rgb(59, 59, 59);
+    width: 70vh;
+   
+}
+
+h2{
+    border: solid;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+h3{
+    font-size: 30px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    border: dashed rgb(59, 59, 59) 5px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+

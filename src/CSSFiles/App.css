@@ -1,0 +1,46 @@
+/*Header,Body, and Navagation.*/
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: rgb(34, 34, 34);
+    font-family: 'Segoe UI';
+    
+}
+
+header{
+    display: flex;
+    background-color: rgb(24, 24, 24);
+    height: 5vh;
+    width: 100%;
+    justify-content: space-between;
+}
+#headerImage{
+    height: inherit;
+    width: 19vh;
+}
+#headerContents{
+    height: inherit;
+    width: fit-content;
+}
+
+#navbar{ 
+    display: flex;
+    height: inherit;
+    align-items:center;
+}
+.navLink{
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.navLink:hover{
+    border: solid;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
